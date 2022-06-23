@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Wordle</title>
+  </head>
+  <body>
+    <h1>Wordle</h1>
+      <center><input type="text" id="intento" name="adivinanza" maxlength="5" minlength="5" onchange="handleChange(event)" placeholder="Ingrese una palabra..."></center>
+      <br>
+      <br>
+      <center><button type="reset" id="reset" onclick="reset" name="reset">Reiniciar</button></center>
+    <div id="juego">
+
+    </div>
+
+    <script src="main.js" charset="utf-8"></script>
+  </body>
+</html>
